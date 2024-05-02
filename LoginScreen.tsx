@@ -16,7 +16,7 @@ function LoginScreen(): React.JSX.Element {
       const trimmedEmail = email.trim();
       const trimmedPassword = password.trim();
       
-      const response = await fetch(`${API_URL}/auth/login`, {
+      const response = await fetch(`${API_URL}/manager-auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

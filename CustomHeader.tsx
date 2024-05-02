@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const CustomHeader = () => {
   return (
     <View style={styles.header}>
-      <Text style={styles.headerText}>Book My Cruz</Text>
+      <Text style={styles.headerText}>Book My Cruz Manager</Text>
     </View>
   );
 };
